@@ -1,4 +1,4 @@
-# grunt-rsas
+# grunt-rsas [![Build Status](https://travis-ci.org/ndxbxrme/grunt-rsas.svg)](https://travis-ci.org/ndxbxrme/grunt-rsas)
 
 > Really Simple Angular Server plugin for Grunt
 
