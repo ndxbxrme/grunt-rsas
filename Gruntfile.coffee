@@ -54,6 +54,7 @@ module.exports = (grunt) ->
   grunt.registerTask 'test', [
     'clean'
     'rsas'
+    'coffeelint'
     #'nodeunit'
   ]
   grunt.registerTask 'default', [
