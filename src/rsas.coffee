@@ -4,7 +4,6 @@ module.exports = (grunt) ->
   rsas = require 'rsas'
   async = require 'async'
   grunt.registerMultiTask 'rsas', 'Really Simple Angular Server', ->
-    console.log 'hello', process.cwd()
     done = @async()
     options = @options
       port: 9000

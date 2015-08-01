@@ -55,6 +55,18 @@ Default value: `development`
 
 The current development environment `development/production`.
 
+#### options.proxy-url
+Type: `String`
+Default value: `undefined`
+
+The url for the proxy to forward to.
+
+#### options.proxy-route
+Type: `String`
+Default value: `/api`
+
+The server route to forward to the proxy.
+
 #### options.keepAlive
 Type: `Boolean`
 Default value: `true`

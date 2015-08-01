@@ -6,7 +6,6 @@
     async = require('async');
     return grunt.registerMultiTask('rsas', 'Really Simple Angular Server', function() {
       var done, options;
-      console.log('hello', process.cwd());
       done = this.async();
       options = this.options({
         port: 9000,

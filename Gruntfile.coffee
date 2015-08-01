@@ -6,7 +6,7 @@ module.exports = (grunt) ->
     watch:
       coffee:
         files: ['src/**/*.coffee', 'test/**/*.coffee', 'Gruntfile.coffee']
-        tasks: ['coffeelint', 'coffee', 'file_append']
+        tasks: ['coffeelint', 'coffee']
     coffee:
       options:
         sourceMap: false
