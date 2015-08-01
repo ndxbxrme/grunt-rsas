@@ -38,37 +38,37 @@ grunt.initConfig({
 ### Options
 
 #### options.port
-Type: `Number`
+Type: `Number`  
 Default value: `9000`
 
 The port to listen on.
 
 #### options.dir
-Type: `String`
+Type: `String`  
 Default value: `current working directory`
 
 The directory to serve.
 
 #### options.env
-Type: `String`
+Type: `String`  
 Default value: `development`
 
 The current development environment `development/production`.
 
 #### options.proxy-url
-Type: `String`
+Type: `String`  
 Default value: `undefined`
 
 The url for the proxy to forward to.
 
 #### options.proxy-route
-Type: `String`
+Type: `String`  
 Default value: `/api`
 
 The server route to forward to the proxy.
 
 #### options.keepAlive
-Type: `Boolean`
+Type: `Boolean`  
 Default value: `true`
 
 Keeps the server alive.
